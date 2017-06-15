@@ -1,60 +1,57 @@
-/* Remove the navbar's default margin-bottom and rounded borders */ 
+/* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
-  margin-bottom: 0;
-  border-radius: 0;
-  //margin-top: -30px;
-  z-index:1 ;
+	margin-bottom: 0;
+	border-radius: 0; //
+	margin-top: -30px;
+	z-index: 1;
 }
 
 .affix {
-  top: 0;
-  width: 100%;
+	top: 0;
+	width: 100%;
 }
 
-.affix + .container-fluid {
-  padding-top: 0px;
+.affix+.container-fluid {
+	padding-top: 0px;
 }
-    
+
 .noDecoration {
-  text-decoration: none;    
-  color: #000;
+	text-decoration: none;
+	color: #000;
 }
 
 .jumbotron {
-  background-color: #4A412A !important;
+	background-color: #4A412A !important;
 }
 
 .shadowText1 {
-  color: whitesmoke;
-  text-shadow: -2px 2px black;
-  
+	color: whitesmoke;
+	text-shadow: -2px 2px black;
 }
 
 .colorUgly {
 	/* Pantone 448C Opaque Couché voted ugliest color in the world! */
-  background-color: #4A412A;
+	background-color: #4A412A;
 }
+
 .font1 {
-  font-family: Croissant One;
+	font-family: Croissant One;
 }
 
 .banner {
-  height: 200px;
-  color: whitesmoke; 
-  
+	height: 200px;
+	color: whitesmoke;
 }
 /* Add a gray background color and some padding to the footer */
 footer {
-  background-color: #4A412A;
-  padding: 0px;
-  color: whitesmoke;
+	background-color: #4A412A;
+	padding: 0px;
+	color: whitesmoke;
 }
 
 thumbnail {
-  margin: 5px;
-  padding: 10px;
-  border: 0px;
-  border-radius: 50%;
+	margin: 5px;
+	padding: 10px;
+	border: 0px;
+	border-radius: 50%;
 }
-
-
