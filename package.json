@@ -2,9 +2,11 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "portfolio",
+  "homepage": "https://pahosler.github.io",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ./"
   },
   "repository": {
     "type": "git",
